@@ -1,0 +1,23 @@
+[0.069s] Invoking command in '/home/marzuq/cafe_robot_ws/build/cafe_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marzuq/cafe_robot_ws/src/cafe_robot -DCMAKE_INSTALL_PREFIX=/home/marzuq/cafe_robot_ws/install/cafe_robot
+[1.140s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.049s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.403s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[2.404s]   By not providing "Findnav2_msgs.cmake" in CMAKE_MODULE_PATH this project
+[2.404s]   has asked CMake to find a package configuration file provided by
+[2.405s]   "nav2_msgs", but CMake did not find one.
+[2.405s] 
+[2.406s]   Could not find a package configuration file provided by "nav2_msgs" with
+[2.406s]   any of the following names:
+[2.406s] 
+[2.407s]     nav2_msgsConfig.cmake
+[2.407s]     nav2_msgs-config.cmake
+[2.408s] 
+[2.408s]   Add the installation prefix of "nav2_msgs" to CMAKE_PREFIX_PATH or set
+[2.408s]   "nav2_msgs_DIR" to a directory containing one of the above files.  If
+[2.409s]   "nav2_msgs" provides a separate development package or SDK, be sure it has
+[2.409s]   been installed.
+[2.410s] 
+[2.410s] [0m
+[2.413s] -- Configuring incomplete, errors occurred!
+[2.414s] See also "/home/marzuq/cafe_robot_ws/build/cafe_robot/CMakeFiles/CMakeOutput.log".
+[2.468s] Invoked command in '/home/marzuq/cafe_robot_ws/build/cafe_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marzuq/cafe_robot_ws/src/cafe_robot -DCMAKE_INSTALL_PREFIX=/home/marzuq/cafe_robot_ws/install/cafe_robot
